@@ -1,17 +1,12 @@
-// 4.pyramide
-// Exemple d'utilisation d'une boucle for {...} afin d'afficher le motif suivant :
-// 1
-// 1 2
-// 1 2 3
-// 1 2 3 4
-// :
-// 1 2 3 4 .. 25
+// 5.Somme multiple
+// Écrire l'algorithme qui calcule la somme des 30 premiers entiers (privés de
+// l'entier 0), c'est-à-dire 1+2+3+4+...+28+29+30.
 
-for (let i = 1; i <= 25; i++) {
-    let ligne = "";
-    for (let j = 1; j <= i; j++) {
-        ligne += j + " ";
-    }
-    console.log(ligne);
+let somme = 0;
+
+for (let i = 1; i <= 30; i++) {
+    somme += i;
 }
+
+console.log(somme);
 

@@ -1,6 +1,17 @@
-// 2.Boucle décroissante
-// Affichez dans l'ordre décroissant les 25 premiers entiers (de 25 à 1, sans 0).
+// 3. Interversion
+// Algorithme permettant d'intervertir le contenu de 2 variables
 
-for (let i = 25; i >= 1; i--) {
-    console.log(i)
-}
+// Déclaration des variables
+let a = 10
+let b = 20
+
+console.log(a)
+console.log(b)
+
+// Interversion avec une variable temporaire
+let temp = a
+a = b
+b = temp
+
+console.log(a)
+console.log(b)

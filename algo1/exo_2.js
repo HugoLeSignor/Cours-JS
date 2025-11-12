@@ -1,8 +1,6 @@
-// 1. Boucle croissante bis
-// Afficher les 25 premiers entiers (de 0 à 24) avec une boucle TANT_QUE (while)
+// 2.Boucle décroissante
+// Affichez dans l'ordre décroissant les 25 premiers entiers (de 25 à 1, sans 0).
 
-let i = 0;
-while (i < 25) {
+for (let i = 25; i >= 1; i--) {
     console.log(i)
-    i++
 }
