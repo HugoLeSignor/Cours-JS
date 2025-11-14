@@ -4,7 +4,7 @@
 
 const black = '⬛'
 const white = '⬜'
-const size = 10
+const size = 14
 let result = ''
 let mode = 2
 
