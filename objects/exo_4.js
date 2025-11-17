@@ -10,4 +10,3 @@ function daysUntil(targetDate) {
 }
 
 console.log(daysUntil('2025-12-25'));
-console.log(daysUntil('2026-01-01')); 
