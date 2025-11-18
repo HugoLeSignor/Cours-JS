@@ -3,9 +3,8 @@
 // semaine plus tard.
 
 function addOneWeek(date) {
-  const newDate = new Date(date);
-  newDate.setDate(newDate.getDate() + 7);
-  return newDate;
+  date.setDate(date.getDate() + 7);
+  return date;
 }
 
 const today = new Date('2025-11-17');
