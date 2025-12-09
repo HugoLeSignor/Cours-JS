@@ -4,26 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../navbar.css">
     <link rel="stylesheet" href="style.css">
     <title>Bouton simple</title>
 </head>
 
 <body>
-    <h1>Bouton simple</h1>
-    <section>
-        <a href="#" id="colorPicker">couleur - click :</a>
-        <div id="colorBox"></div>
-    </section>
+    <script src="../navbar.js"></script>
+    <script>createNavbar('simpleBtn');</script>
 
-    <section>
-        <a href="#" id="shapeSelector">forme - survol :</a>
-        <div id="shapeBox"></div>
-    </section>
+    <div style="padding: 20px;">
+        <h1>Bouton simple</h1>
+        <section>
+            <a href="#" id="colorPicker">couleur - click :</a>
+            <div id="colorBox"></div>
+        </section>
 
-    <section>
-        <a href="#" id="movingSelector">déplacement - sortie de bloc:</a>
-        <div id="movingBox"></div>
-    </section>
+        <section>
+            <a href="#" id="shapeSelector">forme - survol :</a>
+            <div id="shapeBox"></div>
+        </section>
+
+        <section>
+            <a href="#" id="movingSelector">déplacement - sortie de bloc:</a>
+            <div id="movingBox"></div>
+        </section>
+    </div>
 
     <script src="script.js"></script>
 </body>
