@@ -20,7 +20,6 @@ shapeLink.addEventListener('mouseenter', () => {
     shapeBox.style.height = '50px';
 });
 
-// Remettre la taille normale quand on quitte le survol
 shapeLink.addEventListener('mouseleave', () => {
     shapeBox.style.width = '100px';
     shapeBox.style.height = '100px';
