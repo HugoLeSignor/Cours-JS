@@ -1,4 +1,3 @@
-// Sélectionner les éléments
 const colorLink = document.getElementById('colorPicker');
 const colorBox = document.getElementById('colorBox');
 const shapeLink = document.getElementById('shapeSelector');
