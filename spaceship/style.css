@@ -27,3 +27,27 @@ body {
     cursor: pointer;
     transition: transform 0.1s ease;
 }
+
+.controls-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgba(52, 152, 219, 0.8);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 100;
+    transition: all 0.3s;
+}
+
+.controls-btn:hover {
+    background-color: rgba(52, 152, 219, 1);
+    transform: scale(1.05);
+}
+
+.controls-btn:active {
+    transform: scale(0.95);
+}
