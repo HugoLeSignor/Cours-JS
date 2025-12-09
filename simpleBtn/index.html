@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouton simple</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        a {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            border: 1px solid #000000;
+            padding: 5px 10px;
+            display: inline-block;
+            text-decoration: none;
+            color: #000000;
+            cursor: pointer;
+        }
+
+        #colorBox {
+            width: 100px;
+            height: 100px;
+            background-color: #cccccc;
+            border: 2px solid #000000;
+        }
+
+        #shapeBox {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #000000;
+            background-color: #cccccc;
+        }
+
+        #movingBox {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #000000;
+            background-color: #cccccc;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bouton simple</h1>
+    <div class="section">
+        <a href="#" id="colorPicker">couleur - click :</a>
+        <div id="colorBox"></div>
+    </div>
+
+    <div class="section">
+        <a href="#" id="shapeSelector">forme - survol :</a>
+        <div id="shapeBox"></div>
+    </div>
+
+    <div class="section">
+        <a href="#" id="movingSelector">déplacement - sortie de bloc:</a>
+        <div id="movingBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
