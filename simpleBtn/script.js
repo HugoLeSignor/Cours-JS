@@ -5,7 +5,6 @@ const shapeBox = document.getElementById('shapeBox');
 const movingLink = document.getElementById('movingSelector');
 const movingBox = document.getElementById('movingBox');
 
-// Ajouter un événement click sur le lien avec toggle
 colorLink.addEventListener('click', () => {
     if (colorBox.style.backgroundColor === 'red') {
         colorBox.style.backgroundColor = '#cccccc';
@@ -14,7 +13,6 @@ colorLink.addEventListener('click', () => {
     }
 });
 
-// Réduire la taille de shapeBox au survol du lien
 shapeLink.addEventListener('mouseenter', () => {
     shapeBox.style.width = '50px';
     shapeBox.style.height = '50px';
@@ -25,7 +23,6 @@ shapeLink.addEventListener('mouseleave', () => {
     shapeBox.style.height = '100px';
 });
 
-// Déplacer movingBox vers la droite quand on quitte le survol du lien
 movingLink.addEventListener('mouseleave', () => {
     movingBox.style.left = '100px';
 });
