@@ -18,11 +18,6 @@ shapeLink.addEventListener('mouseenter', () => {
     shapeBox.style.height = '50px';
 });
 
-shapeLink.addEventListener('mouseleave', () => {
-    shapeBox.style.width = '100px';
-    shapeBox.style.height = '100px';
-});
-
 movingLink.addEventListener('mouseleave', () => {
     movingBox.style.left = '100px';
 });
